@@ -7,7 +7,7 @@ body{
     color: aliceblue;
 }
 header{
-    background: linear-gradient(to bottom , rgb(134, 84, 84) , black );
+    background: linear-gradient(to bottom , rgb(255, 165, 165) , black );
     text-align: center;
     display: flex;
     justify-content: center;
@@ -49,10 +49,9 @@ img{
 }
 .hero{
     display: inline-block;
-    justify-content: center;
-    align-items: center;
     text-align: center;
     margin-left: 2vw;
+    height: 88vh;
 }
 .herotitle{
    
@@ -60,7 +59,7 @@ img{
     font-size: 60px;
     font-family: "Molle", cursive;
     font-weight: 200;
-    color: beige;
+    color: rgb(249, 226, 211);
   /* font-style: italic; */
 }
 .herodesc{
@@ -69,5 +68,16 @@ img{
     /* font-weight: <weight>;
     font-style: normal; */
     font-size: 24px;
-    margin: 50px 400px;
+    margin: 30px 400px 30px 400px;
+}
+.button1{
+    background-color: rgb(255, 165, 165);
+    width: 250px;
+    height: 65px;
+    border: none;
+    border-radius: 13px;
+    cursor: pointer;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-family: "Fontdiner Swanky" ,Helvetica, sans-serif;
 }
